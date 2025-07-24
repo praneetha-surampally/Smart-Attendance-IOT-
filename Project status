@@ -1,0 +1,53 @@
+📌 Project Status: IoT-Based Smart Attendance System (In Progress)
+This document outlines the current development status of the IoT-Based Smart Attendance System using NFC and Face Recognition.
+
+🚧 Status: In Progress
+I am actively developing this project with a focus on integrating hardware components, implementing backend logic, and building a real-time dashboard for faculty use.
+
+✅ Requirements
+🔧 Software Requirements
+ Python (>= 3.7)
+
+ OpenCV
+
+ face_recognition library
+
+ Firebase Admin SDK
+
+ Streamlit (for dashboard)
+
+ Deployment pipeline for dashboard (in progress)
+
+🔩 Hardware Requirements
+ Raspberry Pi 4 Model B
+
+ RC522 RFID Reader
+
+ NFC Tags
+
+ Raspberry Pi Camera Module / USB Webcam
+
+ 3D-printed casing for compact setup (optional, in design phase)
+
+🗂️ Modules Being Developed
+Module	Status	Notes
+NFC Card Reading	✅ Completed	Integrated with Raspberry Pi
+Face Recognition	✅ Completed	Using OpenCV + face_recognition
+Attendance Marking Logic	✅ Completed	Uploading data to Firebase Firestore
+Firebase Integration	✅ Completed	Realtime sync implemented
+Streamlit Dashboard	⚙️ In Progress	Graphs and filtering in testing phase
+User Registration (NFC + Face)	⚙️ In Progress	UI and storage validation ongoing
+
+📅 Timeline Snapshot
+Milestone	Target Date	Status
+Hardware Setup & Testing	✅ Completed	
+Backend Development	✅ Completed	
+Dashboard UI + Graph Integration	🕒 July–August	In Progress
+Final Testing + Deployment	🕒 August 2025	Upcoming
+
+📌 Notes
+All face data is securely stored and processed locally before syncing attendance.
+
+Cloud-based data sync via Firebase allows real-time monitoring.
+
+Modular design to allow future upgrades (e.g., fingerprint, QR).
