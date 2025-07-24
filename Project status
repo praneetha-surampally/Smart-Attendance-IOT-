@@ -23,12 +23,12 @@ I am actively developing this project with a focus on integrating hardware compo
 
 🗂️ Modules Being Developed
 Module	Status	Notes
-NFC Card Reading	              ✅ Completed	Integrated with Raspberry Pi
-Face Recognition	              ✅ Completed	Using OpenCV + face_recognition
-Attendance Marking Logic	      ✅ Completed	Uploading data to Firebase Firestore
-Firebase Integration	          ✅ Completed	Realtime sync implemented
-Streamlit Dashboard	           ⚙️ In Progress	Graphs and filtering in testing phase
-User Registration (NFC + Face)	⚙️ In Progress	UI and storage validation ongoing
+NFC Card Reading	                   ✅ Completed	Integrated with Raspberry Pi
+Face Recognition	                   ✅ Completed	Using OpenCV + face_recognition
+Attendance Marking Logic	           ✅ Completed	Uploading data to Firebase Firestore
+Firebase Integration	               ✅ Completed	Realtime sync implemented
+Streamlit Dashboard	                ⚙️ In Progress	Graphs and filtering in testing phase
+User Registration (NFC + Face)	     ⚙️ In Progress	UI and storage validation ongoing
 
 📅 Timeline Snapshot
 Milestone	                        Target                             Date	                                                  Status
